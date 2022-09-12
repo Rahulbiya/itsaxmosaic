@@ -58,8 +58,8 @@ p {
 /* glow effect*/
 
 
-.glow {
-    font-size: 95px;
+.glow , #timer ,.typed-out {
+    font-size: 200%;
     color: #fff;
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
