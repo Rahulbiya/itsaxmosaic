@@ -1,7 +1,9 @@
-main-div {
+
+.main-div {
     position: relative;
-    margin: 10px;
+    margin: 50px;
     background-color: transparent;
+    
   }
   
   .main-div1::before {
@@ -11,8 +13,8 @@ main-div {
     top: 0;
     width: 50%;
     height: 50%;
-    -webkit-box-shadow: 0 0 17px 3px #b701ff,0 0 4px 2px #ff01ff;
-            box-shadow: 0 0 17px 3px #d501ff,0 0 4px 2px #af01ff;
+    -webkit-box-shadow: 0 0 17px 3px #ffff01,0 0 4px 2px #ffff01;
+            box-shadow: 0 0 17px 3px #ffff01,0 0 4px 2px #ffff01;
     z-index: -1;
     -webkit-animation-name: yellow-shadow;
             animation-name: yellow-shadow;
@@ -130,7 +132,7 @@ main-div {
   }
   
   .round {
-    font-size: 50px;
+    font-size: 40px;
     margin: 0;
     position: relative;
     z-index: 3;
