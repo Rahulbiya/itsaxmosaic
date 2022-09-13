@@ -246,6 +246,7 @@ body {
 }
 
 .typingeffect {
+    color: white;
     background-color: #000;
     position: relative;
     font-family: sans-serif;
@@ -274,7 +275,6 @@ body {
 }
 
 .textforevents {
-    background-color: #000;
     position: relative;
     font-family: sans-serif;
     font-weight: bolder;
@@ -299,4 +299,9 @@ body {
     100% {
         background-position: 500%;
     }
+}
+
+.round1 {
+    color: white;
+    margin-bottom: 300px;
 }
