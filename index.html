@@ -2,9 +2,7 @@
 <html lang="en">
 
 <head>
-    
-       
-        
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
@@ -27,6 +25,8 @@
     <link rel="stylesheet" href="programmer.css">
     <link rel="stylesheet" href="stage.css">
     <script src="audio.js"></script>
+    <link rel="stylesheet" href="./button.css">
+    <link rel="stylesheet" href="./downregistrationbutton.css">
 
     <!--footer-->
     <link rel="stylesheet" href="./footer/lightslider.css">
@@ -35,34 +35,7 @@
     <script src="./footer/LightSlider.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!--desktop site script-->
-    <!-- <script>
-               function parseUA() {
-            var u = navigator.userAgent;
-            var u2 = navigator.userAgent.toLowerCase();
-            return { 
-                trident: u.indexOf('Trident') > -1, 
-                presto: u.indexOf('Presto') > -1, 
-                webKit: u.indexOf('AppleWebKit') > -1, 
-                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, 
-                mobile: !!u.match(/AppleWebKit.*Mobile.*/), 
-                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), 
-                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, 
-                iPhone: u.indexOf('iPhone') > -1, 
-                iPad: u.indexOf('iPad') > -1, 
-                webApp: u.indexOf('Safari') == -1, 
-                iosv: u.substr(u.indexOf('iPhone OS') + 9, 3),
-                weixin: u2.match(/MicroMessenger/i) == "micromessenger",
-                ali: u.indexOf('AliApp') > -1,
-            };
-        }
-        var ua = parseUA();
-
-        if (ua.mobile) {
-            location.href = './index.html';
-        }
-    </script> -->
-
+   
 </head>
 
 <body style="background-color: rgb(10, 0, 10); overflow-x: hidden;">
@@ -276,6 +249,13 @@
             <h1>EVENTS ORGANIZED BY ITSA</h1>
         </div>
 
+        <!--registration button-->
+   <button class="register" >
+    <a href="#" >Pre-Register</a> 
+   </button>
+
+
+       
         <div class="container text-center">
             <div class="row gx-5 gy-5">
                 <div class="col-sm-6">
@@ -361,6 +341,10 @@
             </div>
         </div>
 
+        <button class="register2" >
+            <a href="#" >Pre-Register</a> 
+           </button>
+<br><br><br><br><br>
         <!--sponsors ka div-->
         <div id="sponsor us">
             <div class="sponsor">
