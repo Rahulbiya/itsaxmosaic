@@ -1,4 +1,4 @@
-let more = document.querySelector('.aud');
+let more = document.querySelector('.more');
 
 let audioArr = document.getElementsByTagName('audio');
 console.log(audioArr);
