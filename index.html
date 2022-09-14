@@ -47,7 +47,7 @@
 
         <nav class="navbar navbar-expand-lg " style="background-color: rgb(34,17,68);">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; font-size: 200%; color:rgb(165,53,68);">
+                <a class="navbar-brand" href="#" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; font-size: 200%; color:rgb(255, 255, 255);">
                     <img src="./assets/logo-modified.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top"> ITSA X MOSAIC <img src="/assets/sfitlogo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -119,7 +119,9 @@
     </p>
 </div>
 
-                    <div id="box">
+                    <div id="box" >
+                        
+
                         <p id="flashlight">
                             
                             <span id="flash">MOSAIC</span>
@@ -268,7 +270,7 @@
 
         <!--registration button-->
         <button class="register">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkSC7Xsv9EYwlDCmnXEexmnmePzns_g1yZpJCxl7w4QYzm-A/viewform?usp=sf_link" target="_blank">Pre-Register</a> 
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkSC7Xsv9EYwlDCmnXEexmnmePzns_g1yZpJCxl7w4QYzm-A/viewform?usp=sf_link" target="_blank" style="color:white;">Pre-Register</a> 
    </button>
 
 
@@ -359,7 +361,7 @@
         </div>
 
         <button class="register2">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkSC7Xsv9EYwlDCmnXEexmnmePzns_g1yZpJCxl7w4QYzm-A/viewform?usp=sf_link" target="_blank" >Pre-Register</a> 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkSC7Xsv9EYwlDCmnXEexmnmePzns_g1yZpJCxl7w4QYzm-A/viewform?usp=sf_link" target="_blank" style="color:white;">Pre-Register</a> 
            </button>
         <br><br><br><br><br>
         <!--sponsors ka div-->
@@ -440,6 +442,11 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
+        <audio id="aud" style="display: none;" src="./assets/orchestra.mp3" preload="auto">
+        <script>
+            var sample = document.getElementById('aud');
+            sample.play();
+        </script>
 </body>
 
 </html>
