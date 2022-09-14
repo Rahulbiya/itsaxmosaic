@@ -262,8 +262,8 @@ body {
     animation: animate 3s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(3, 234, 255, 0);
-    text-align: center;
-    filter: brightness(200%);
+    text-align: cener;
+    filter: brightness(200%t);
 }
 
 @keyframes animate {
@@ -286,7 +286,7 @@ body {
     background: linear-gradient(90deg, #000, #fff, #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear infinite;
+    /* animation: animate 10s linear infinite; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(3, 234, 255, 0);
     text-align: center;
